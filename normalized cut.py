@@ -147,7 +147,3 @@ if __name__ == '__main__':
     b = (b/b.max())*255
     cv2.imshow('eigvec',b.astype('uint8'))
     cv2.waitKey()
-
-
-
-    print('haha')
